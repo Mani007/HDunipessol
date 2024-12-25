@@ -5,7 +5,7 @@ import Logo from "../../../public/logo/logo-removebg-preview.png";
 function Footer() {
   return (
     <>
-      <footer className="w-full text-gray-700 bg-slate-900 body-font">
+      <footer className="w-full text-gray-700 bg-[#10375C] body-font">
         <div className="container flex flex-col flex-wrap px-5 py-24 mx-auto md:items-center lg:items-start md:flex-row md:flex-no-wrap">
           <div className="flex-shrink-0 w-64 mx-auto text-center md:mx-0 md:text-left">
             <div className="flex flex-col items-center justify-center font-medium text-[#00df9a] title-font md:justify-start">
@@ -299,7 +299,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="bg-slate-900">
+        <div className="bg-[#10375C]">
           <div className="container px-5 py-4 mx-auto">
             <p className="text-sm text-gray-700 capitalize text-center xl:text-center">
               © 2023-2025 All rights reserved{" "}

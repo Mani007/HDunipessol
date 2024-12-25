@@ -23,6 +23,7 @@ function Navbar() {
                 alt='UNCMON Logo'
                 width={150}
                 height={40}
+                className='sm:pt-8'
                 />
                 </Link>
                

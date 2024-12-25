@@ -20,8 +20,8 @@ function Navbar() {
             <div>
                 <Link href='/' onClick={smallNav}>
                 <Image src={Logo}
-                alt='UNCMON Logo'
-                width={150}
+                alt='HR International Logo'
+                width={140}
                 height={40}
                 className='sm:pt-8'
                 />

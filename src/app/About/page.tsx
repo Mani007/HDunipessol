@@ -4,7 +4,7 @@ import Logo from '../../../public/logo/logo-removebg-preview.png'
 function page() {
   return (
     <>
-    <div className="bg-[#10375C] w-full  2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
+    <div className="bg-[#10375C]  w-full  2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-28 px-4">
             <div className="flex flex-col lg:flex-row justify-between gap-8">
                 <div className="w-full lg:w-5/12 flex flex-col justify-center">
                     <h1 className="text-3xl lg:text-4xl font-bold leading-9 text-[#ffdc73] pb-4">About Us</h1>
@@ -45,7 +45,7 @@ function page() {
   height={0}
   sizes="100vw" alt="Liam featued Image" />
                             <Image className="md:hidden block" src={Logo} alt="Liam featued Image" />
-                            <p className="font-medium text-xl leading-5 text-[#ffdc73] mt-4">Liam</p>
+                            <p className="font-medium text-xl leading-5 text-[#ffdc73] mt-4">Jhon</p>
                         </div>
                         <div className="p-4 pb-6 flex justify-center flex-col items-center">
                             <Image className="md:block hidden" src={Logo} width={0}
@@ -54,7 +54,7 @@ function page() {
                             <Image className="md:hidden block" src={Logo} width={0}
   height={0}
   sizes="100vw" alt="Elijah featured Image" />
-                            <p className="font-medium text-xl leading-5 text-[#ffdc73] mt-4">Elijah</p>
+                            <p className="font-medium text-xl leading-5 text-[#ffdc73] mt-4">David</p>
                         </div>
                     </div>
                 </div>

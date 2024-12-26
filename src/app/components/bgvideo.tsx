@@ -11,9 +11,9 @@ function Bgvideo() {
       height={600}
       alt="Picture of the author"
     /> */}
-    <div className='w-screen bg-[#10375C] h-dvh '>
+    <div className='w-screen bg-[#10375C] h-dvh   '>
 
-    <video src="hduni.mp4" autoPlay loop muted playsInline  className='w-auto h-auto '/>
+    <video src="hduni.mp4" autoPlay loop muted playsInline  className='md:min-w-[110%] min-w-full  min-h-full  '/>
     </div>
     <div className=" sm:text-center sm:items-center sm:justify-center text-center items-center justify-center absolute sm:w-4/5 w-screen">
     

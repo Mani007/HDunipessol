@@ -126,14 +126,14 @@ function Footer() {
                     Team
                   </Link>
                 </li>
-                <li className="mt-3">
+                {/* <li className="mt-3">
                   <Link
                     href="/Technology"
                     className="text-[#ffdc73] cursor-pointer hover:text-[#00df9a]"
                   >
                     Technology
                   </Link>
-                </li>
+                </li> */}
               </nav>
             </div>
             <div className="w-full px-4 lg:w-1/4 md:w-1/2">
@@ -154,7 +154,7 @@ function Footer() {
                     href="/Solutions"
                     className="text-[#ffdc73] cursor-pointer hover:text-[#00df9a]"
                   >
-                    Solutions
+                    Services
                   </Link>
                 </li>
                 <li className="mt-3">
@@ -162,7 +162,7 @@ function Footer() {
                     href="/Industry"
                     className="text-[#ffdc73] cursor-pointer hover:text-[#00df9a]"
                   >
-                    Industry
+                    Expertise
                   </Link>
                 </li>
                 <li className="mt-3">
@@ -170,7 +170,7 @@ function Footer() {
                     href="/Customers"
                     className="text-[#ffdc73] cursor-pointer hover:text-[#00df9a]"
                   >
-                    Customers
+                    Clients
                   </Link>
                 </li>
                 {/* <li className="mt-3">
@@ -180,9 +180,27 @@ function Footer() {
             </div>
             <div className="w-full px-4 lg:w-1/4 md:w-1/2">
               <h2 className="mb-3 text-sm font-medium tracking-widest text-[#ffdc73] uppercase title-font">
-                Behind The Scene
+                Our Values
               </h2>
               <nav className="mb-10 list-none">
+                <li className="mt-3">
+                  <Link
+                    target="_blank"
+                    href="https://www.copyright.gov/legislation/dmca.pdf"
+                    className="text-[#ffdc73] cursor-pointer hover:text-[#00df9a]"
+                  >
+                    Heritage
+                  </Link>
+                </li>
+                <li className="mt-3">
+                  <Link
+                    target="_blank"
+                    href="https://www.copyright.gov/legislation/dmca.pdf"
+                    className="text-[#ffdc73] cursor-pointer hover:text-[#00df9a]"
+                  >
+                    Code of conduct
+                  </Link>
+                </li>
                 <li className="mt-3">
                   <Link
                     target="_blank"

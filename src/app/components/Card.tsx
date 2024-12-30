@@ -2,13 +2,19 @@ import React from 'react'
 import Image from "next/image";
 import Link from "next/link";
 import Service1 from "../../../public/Services/services1.jpg";
-function Card() {
+interface Carddata{
+  images: string,
+  title: string,
+  description: string
+  //width: number
+}
+function Card(props: Carddata) {
   return (
     <>
     <div className="relative  rounded-lg  shadow transition hover:shadow-lg">
   <Image
     alt="Service"
-    src={Service1}
+    src={props.images}
     width={0}
   height={0}
   sizes="100vw"
@@ -19,13 +25,10 @@ function Card() {
     <div className="p-4  items-center justify-center sm:p-6">
       
 
-     <h2 className='text-[#ffdc73] text-center '>Accounting</h2>
+     <h2 className='text-[#ffdc73] text-center '>{props.title}</h2>
 
       <p className="mt-2 line-clamp-3 text-center text-sm/relaxed text-[#ffdc73] ">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus
-        pariatur animi temporibus nesciunt praesentium dolore sed nulla ipsum eveniet corporis
-        quidem, mollitia itaque minus soluta, voluptates neque explicabo tempora nisi culpa eius
-        atque dignissimos. Molestias explicabo corporis voluptatem?
+        {props.description}
       </p>
 
       <Link href="/Contact" className='flex items-center justify-center'>

@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from "next/image";
 import Link from "next/link";
-import Service1 from "../../../public/Services/services1.jpg";
+//import Service1 from "../../../public/Services/services1.jpg";
 interface Carddata{
   images: string,
   title: string,

@@ -18,7 +18,7 @@ function Card(props: Carddata) {
     width={0}
   height={0}
   sizes="100vw"
-    className="absolute inset-0 h-full w-full object-cover"
+    className="absolute brightness-50 inset-0 h-full w-full object-cover"
   />
 
   <div className="relative flex flex-col items-center justify-center  pt-32 sm:pt-48 lg:pt-64">

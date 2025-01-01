@@ -120,7 +120,7 @@ function Footer() {
                         </li> */}
                 <li className="mt-3">
                   <Link
-                    href="/ResponsibleAI"
+                    href="/Contact"
                     className="text-[#ffdc73] cursor-pointer hover:text-[#00df9a]"
                   >
                     Team
@@ -210,12 +210,7 @@ function Footer() {
                     Terms &amp; Privacy
                   </Link>
                 </li>
-                {/* <li className="mt-3">
-                            <a  className="text-[#ffdc73] cursor-pointer hover:text-[#00df9a]">License</a>
-                        </li>
-                        <li className="mt-3">
-                            <a className="text-[#ffdc73] cursor-pointer hover:text-[#00df9a]">FAQ</a>
-                        </li>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          */}
+                
               </nav>
             </div>
             <div className="w-full px-4 lg:w-1/4 md:w-1/2">

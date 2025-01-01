@@ -185,22 +185,22 @@ function Footer() {
               <nav className="mb-10 list-none">
                 <li className="mt-3">
                   <Link
-                    target="_blank"
-                    href="https://www.copyright.gov/legislation/dmca.pdf"
+                    //target="_blank"
+                    href="/OurValues"
                     className="text-[#ffdc73] cursor-pointer hover:text-[#00df9a]"
                   >
                     Heritage
                   </Link>
                 </li>
-                <li className="mt-3">
+                {/* <li className="mt-3">
                   <Link
-                    target="_blank"
-                    href="https://www.copyright.gov/legislation/dmca.pdf"
+                    //target="_blank"
+                    href="/OurValues"
                     className="text-[#ffdc73] cursor-pointer hover:text-[#00df9a]"
                   >
                     Code of conduct
                   </Link>
-                </li>
+                </li> */}
                 <li className="mt-3">
                   <Link
                     target="_blank"

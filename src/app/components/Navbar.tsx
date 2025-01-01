@@ -35,7 +35,7 @@ function Navbar() {
                     <li className='mr-4 lg:mr-8 text-[#ffdc73] hover:text-[#00df9a]'><Link href='/About' onClick={smallNav}>About</Link></li>
                     <li className='mr-4 lg:mr-8 text-[#ffdc73] hover:text-[#00df9a]'><Link href='/Services' onClick={smallNav}>Services</Link></li>
                     <li className='mr-4 lg:mr-8 text-[#ffdc73] hover:text-[#00df9a]'><Link href='/Expertise' onClick={smallNav}>Expertise</Link></li>
-                    <li className='mr-4 lg:mr-8 text-[#ffdc73] hover:text-[#00df9a]'><Link href='/Clients' onClick={smallNav}>Clients</Link></li>
+                    {/* <li className='mr-4 lg:mr-8 text-[#ffdc73] hover:text-[#00df9a]'><Link href='/Clients' onClick={smallNav}>Clients</Link></li> */}
                     {/* <li className='mr-4 lg:mr-8 text-[#ffdc73] hover:text-[#00df9a]'><Link href='/Services' onClick={smallNav}>Services</Link></li> */}
                     <li className='mr-4 lg:mr-8 text-[#ffdc73] hover:text-[#00df9a]'><Link href='/Contact' onClick={smallNav}>Contact</Link></li>
                 </ul>
@@ -68,10 +68,10 @@ function Navbar() {
 
                             <Link href='/Expertise'>Expertise</Link>
                         </li>
-                        <li onClick={smallNav} className='py-5 hover:text-[#00df9a]'>
+                        {/* <li onClick={smallNav} className='py-5 hover:text-[#00df9a]'>
 
                             <Link href='/Clients'>Clients</Link>
-                        </li>
+                        </li> */}
                         {/* <li onClick={smallNav} className='py-5 hover:text-[#00df9a]'>
 
                             <Link href='/Services'>Services</Link>

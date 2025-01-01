@@ -165,14 +165,14 @@ function Footer() {
                     Expertise
                   </Link>
                 </li>
-                <li className="mt-3">
+                {/* <li className="mt-3">
                   <Link
                     href="/Customers"
                     className="text-[#ffdc73] cursor-pointer hover:text-[#00df9a]"
                   >
                     Clients
                   </Link>
-                </li>
+                </li> */}
                 {/* <li className="mt-3">
                             <a className="text-[#ffdc73] cursor-pointer hover:text-[#00df9a]">Impact</a>
                         </li> */}

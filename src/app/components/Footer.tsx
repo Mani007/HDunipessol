@@ -149,14 +149,7 @@ function Footer() {
                     Services
                   </Link>
                 </li>
-                <li className="mt-3">
-                  <Link
-                    href="/Solutions"
-                    className="text-[#ffdc73] cursor-pointer hover:text-[#00df9a]"
-                  >
-                    Services
-                  </Link>
-                </li>
+                
                 <li className="mt-3">
                   <Link
                     href="/Industry"

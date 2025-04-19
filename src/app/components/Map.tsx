@@ -8,10 +8,9 @@ function Map() {
   return (
     <>
     
-    <div className="">
+    <div className="bg-[#10375C]">
     <WorldMap
-        color="red"
-        
+        color="green" 
         value-suffix="Our Office"
         size="lg"
         data={data}

@@ -4,7 +4,13 @@ import Map from '../components/Map'
 function page() {
   return (
    <>
-   <Map/>
+   <div className="w-full relative text-gray-700 bg-[#10375C] body-font">
+    <div className="container flex flex-col flex-wrap px-5 py-24 mx-auto md:items-center lg:items-start md:flex-row md:flex-no-wrap">
+      <div className="flex-shrink-0 w-64 mx-auto  text-center md:mx-0 md:text-left">
+     <Map/>
+      </div>
+    </div>
+   </div>
    </>
   )
 }

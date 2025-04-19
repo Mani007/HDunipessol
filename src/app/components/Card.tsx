@@ -32,7 +32,7 @@ function Card(props: Carddata) {
       </p>
 
       <Link href="/Contact" className='flex items-center justify-center'>
-        <button className="mt-4 text-white  hover:bg-[#ffdc73] border-0 py-2 px-6 focus:outline-none bg-[#00df9a] rounded text-lg">Contact</button>
+        <button className="mt-4 text-white  hover:bg-[#ffdc73] border-0 py-2 px-6 focus:outline-none bg-[#00df9a] rounded text-lg">Know more</button>
       </Link>
     </div>
   </div>

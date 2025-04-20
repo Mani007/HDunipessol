@@ -120,7 +120,7 @@ function Footer() {
                         </li> */}
                 <li className="mt-3">
                   <Link
-                    href="/Contact"
+                    href="/About"
                     className="text-[#ffdc73] cursor-pointer hover:text-[#00df9a]"
                   >
                     Team

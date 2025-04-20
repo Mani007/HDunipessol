@@ -46,7 +46,7 @@ function page() {
         </div>
       </div>
       
-      <div className="flex-shrink-0 w-0 md:hidden  px-20 ">
+      <div className="flex-shrink-0 w-0 hidden lg:block px-20 ">
       <Map/>
       </div>
     </div>

@@ -41,7 +41,7 @@ export const Carousel = () => {
     }, AUTO_DELAY);
 
     return () => clearInterval(intervalRef);
-  }, []);
+  });
 
   const onDragEnd = () => {
     const x = dragX.get();

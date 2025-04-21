@@ -75,7 +75,7 @@ export const Carousel = () => {
       </motion.div>
 
       <Dots imgIndex={imgIndex} setImgIndex={setImgIndex} />
-      {/* <GradientEdges /> */}
+      <GradientEdges />
     </div>
   );
 };

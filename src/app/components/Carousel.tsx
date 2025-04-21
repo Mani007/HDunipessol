@@ -1,14 +1,20 @@
 "use client"
 import React, { useEffect, useState } from "react";
 import { motion, useMotionValue } from "framer-motion";
-
-const imgs = [
-  "/Experts/account.jpg",
-  "/Experts/payroll.jpg",
-  "/Experts/bookkeeping.jpg",
-  "/Experts/advisor.jpg",
+import {imgs} from "../data/corusel"
+// const imgs = [
+//   "/Experts/account.jpg",
+//   "/Experts/payroll.jpg",
+//   "/Experts/bookkeeping.jpg",
+//   "/Experts/advisor.jpg",
   
-];
+// ];
+interface expdata{
+  images: string,
+  text: string,
+  //description: string
+  //width: number
+}
 
 const ONE_SECOND = 1000;
 const AUTO_DELAY = ONE_SECOND * 10;
@@ -80,7 +86,7 @@ export const Carousel = () => {
   );
 };
 
-const Images = ({ imgIndex }) => {
+const Images = ({props: }) => {
   return (
     <>
       {imgs.map((imgSrc, idx) => {
